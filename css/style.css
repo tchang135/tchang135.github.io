@@ -1238,3 +1238,14 @@ ul.slides li {
 	    padding-bottom: 40px;
 	}
 }
+
+.aALogo {
+	width: 15vw;
+	border-radius: 50%;
+	margin-bottom: 2vh;
+}
+
+.buLogo {
+	width: 16vw;
+	border-radius: 50%;
+}
