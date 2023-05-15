@@ -1249,3 +1249,7 @@ ul.slides li {
 	width: 16vw;
 	border-radius: 50%;
 }
+
+p {
+	font-size: 18px;
+}
