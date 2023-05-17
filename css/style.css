@@ -1255,7 +1255,15 @@ p {
 }
 
 #projectSlides {
-	margin-left: 27vw;
+	margin-left: 1vw;
+	width: fit-content;
 }
+
+#projectPhoto {
+	margin-left: 6vw;
+	height: 60vh;
+	width: 65vw;
+}
+
 
 
