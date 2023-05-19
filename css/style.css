@@ -1254,7 +1254,12 @@ p {
 	font-size: 18px;
 }
 
-#projectSlides {
+#projectSlide1 {
+	margin-left: 4vw;
+	width: fit-content;
+}
+
+#projectSlide2 {
 	margin-left: 1vw;
 	width: fit-content;
 }
@@ -1264,6 +1269,12 @@ p {
 	height: 60vh;
 	width: 65vw;
 }
+
+.buttonSection {
+	display: flex;
+	justify-content: space-around;
+}
+
 
 
 
