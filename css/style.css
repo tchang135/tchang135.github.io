@@ -1271,26 +1271,35 @@ p {
 	width: 65vw;
 }
 
+#projectPhoto {
+	transition: box-shadow 0.3s ease-in-out;
+}
+ 
+#projectPhoto:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .buttonSection {
 	display: flex;
 	justify-content: space-around;
 }
 
 .image-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .image-container img {
-  width: 80px;
-  height: 80px;
-  margin-right: 25px;
-  transition: transform 0.3s ease-in-out;
+	width: 80px;
+	height: 80px;
+	margin-right: 25px;
+	transition: transform 0.3s ease-in-out;
 }
 
 .image-container img:hover {
-  transform: scale(1.5);
+  	transform: scale(1.5);
 }
 
-
-
+#aboutMeText {
+	color:#6b8e23;
+}
