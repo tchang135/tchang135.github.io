@@ -1285,24 +1285,40 @@ p {
 }
 
 .skillsWrapperDiv {
-	display: grid;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-left: 50vw;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .image-container img {
-	width: 80px;
-	height: 80px;
-	margin-right: 25px;
-	transition: transform 0.3s ease-in-out;
+    width: 80px;
+    height: 80px;
+    margin-right: 3vw;
+    transition: transform 0.3s ease-in-out;
 }
-
 .image-container img:hover {
   	transform: scale(1.5);
+}
+
+.image-container img:hover::after {
+    content: attr(title);
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #000;
+    color: black;
+    font-size: 12px;
+    white-space: nowrap;
 }
 
 #aboutMeText {
