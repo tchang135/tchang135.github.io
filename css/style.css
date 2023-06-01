@@ -1284,9 +1284,14 @@ p {
 	justify-content: space-around;
 }
 
+.skillsWrapperDiv {
+	display: grid;
+	align-items: center;
+}
+
 .image-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .image-container img {
@@ -1303,3 +1308,4 @@ p {
 #aboutMeText {
 	color:#6b8e23;
 }
+
