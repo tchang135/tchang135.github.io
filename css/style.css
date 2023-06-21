@@ -452,14 +452,13 @@ table {
 	transition-delay: 0.5s;
 }
 /* ==========================================================================Hero========================================================================== */
-.hero {
+/* .hero {
 	background: url('../img/tim portfolio photo 2.jpeg') right bottom no-repeat;
 	background-size: contain;
-	padding:307.5px 0 0 0;
-	height:auto;
+	width: 170vw;
+	/* height: auto; */
 	/* width: auto; */
-	background-color: #FBFBFB;
-}
+
 .hero h1 {
 	font-size: 120px;
 	letter-spacing: -8px;
@@ -1255,16 +1254,6 @@ p {
 	font-size: 18px;
 }
 
-#projectSlide1 {
-	margin-left: 4vw;
-	width: fit-content;
-}
-
-#projectSlide2 {
-	margin-left: 1vw;
-	width: fit-content;
-}
-
 #projectPhoto {
 	margin-left: 6vw;
 	height: 60vh;
@@ -1332,4 +1321,8 @@ p {
 
 #contactMeForm {
     width: 65%; /* Adjust the width as needed */
+}
+
+.projectContainer {
+	margin-bottom: 30vh;
 }
