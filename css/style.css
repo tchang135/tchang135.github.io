@@ -783,6 +783,10 @@ ul.social-buttons li {
 ul.social-buttons li:last-child {
 	margin-right:0;
 }
+
+ul, ol {
+    list-style-type: none;
+}
 .social-btn {
 	width:40px;
 	height:40px;
@@ -1120,8 +1124,8 @@ p {
 }
 
 #projectPhoto {
-	height: 60vh;
-	width: 65vw;
+	height: 70vh;
+	width: 75vw;
 }
 
 #projectPhoto {
