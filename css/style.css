@@ -784,8 +784,8 @@ ul.social-buttons li:last-child {
 	margin-right:0;
 }
 
-ul, ol {
-    list-style-type: none;
+li.projectContainer {
+	list-style-type: none;
 }
 .social-btn {
 	width:40px;
@@ -1136,16 +1136,6 @@ p {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.buttonSection {
-	display: flex;
-	justify-content: flex-start;
-}
-
-
-.buttonSection > * {
-	margin-left: 31vw; 
-  }
-
 .skillsWrapperDiv {
     display: flex;
     flex-direction: column;
@@ -1208,6 +1198,8 @@ p {
 
 .projectContainer {
 	margin-bottom: 30vh;
+	justify-content: flex;
+	align-items: center;
 }
 
 #firstText {
