@@ -1135,8 +1135,13 @@ p {
 
 .buttonSection {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 }
+
+
+.buttonSection > * {
+	margin-left: 31vw;  /* adjust this to create more or less space */
+  }
 
 .skillsWrapperDiv {
     display: flex;
