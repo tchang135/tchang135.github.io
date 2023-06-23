@@ -1193,10 +1193,17 @@ p {
     width: 65%; /* Adjust the width as needed */
 }
 
+/* .container {
+	display: grid;
+	justify-content: center;
+	width: 90%;
+} */
+
 .projectContainer {
 	margin-bottom: 30vh;
 	justify-content: flex;
 	align-items: center;
+	margin-left: -3vw;
 }
 
 #firstText {
