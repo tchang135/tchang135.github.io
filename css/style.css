@@ -1117,7 +1117,7 @@ ul.slides li {
 }
 
 p {
-	font-size: 18px;
+	font-size: 2vw;
 }
 
 #projectPhoto {
@@ -1147,8 +1147,8 @@ p {
 }
 
 .image-container img {
-    width: 80px;
-    height: 80px;
+    width: 80vw;
+    height: 0vw;
     margin-right: 3vw;
     transition: transform 0.3s ease-in-out;
 }
