@@ -785,13 +785,13 @@ li.projectContainer {
 	list-style-type: none;
 }
 .social-btn {
-	width: 5vw;
-	height:2.4vw;
+	width: 4vw;
+	height:1.8vw;
 	background: #f3593a;
 	display:inline-block;
 	color:#fff;
-	font-size:1.5vw;
-	line-height:2.4vw;
+	font-size:1.1vw;
+	line-height:2vw;
 	text-align:center;
 	border-bottom: none;
 	border-radius: 1vw;
@@ -1242,4 +1242,8 @@ p {
 
   .customButton a{
     border-bottom: none;
+}
+
+#contactMeText {
+	font-size: 1vw;
 }
