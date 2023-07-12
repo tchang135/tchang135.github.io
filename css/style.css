@@ -354,12 +354,12 @@ table {
 	height: 120vh;
 }
 .hero h1 {
+	margin-top: 10vh;
 	font-size: 8vw;
-	letter-spacing: -8px;
 	font-weight: 600;
 	line-height: 12vh;
 	text-transform: uppercase;
-	margin-bottom: 10vh;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 	
 }
 .hero h1 span {
@@ -368,7 +368,7 @@ table {
 }
 .hero h3 {
 	font-size: 3vw;
-	margin-top: 20vh;
+	margin-top: 35vh;
 	padding:0;
 	opacity:0.5;
 	color: rgb(204, 204, 204);
@@ -980,11 +980,11 @@ ul.slides li {
 		padding: 95px 0px 0px 0px;
 	}
 
-	.hero h1 {
+	/* .hero h1 {
 		font-size: 100px;
 		line-height: 80px;
 		margin-top: 65px;
-}
+} */
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
@@ -1247,3 +1247,30 @@ p {
 #contactMeText {
 	font-size: 1vw;
 }
+
+#resumeButton {
+	display: inline-block;
+	padding: 1vw 2vw;
+	font-size: 1vw;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4CAF50;
+	color: #FFFFFF;
+	border-radius: 1vw;
+	transition: background-color 0.3s ease;
+}
+  
+  /* Hover animation */
+  #resumeButton:hover {
+	background-color: #58df5f;
+  }
+
+  #fullstackFlashText {
+	top: 60vh;
+	font-size: 2.3vw;
+	letter-spacing: .3vw;
+  }
+
+  .headerText {
+	height: 70vh;
+  }
