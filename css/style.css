@@ -1250,13 +1250,13 @@ p {
 
 #resumeButton {
 	display: inline-block;
-	padding: 1vw 2vw;
-	font-size: 1vw;
+	padding: 1.3vw 2.2vw;
+	font-size: 1.6vw;
 	text-align: center;
 	text-decoration: none;
 	background-color: #4CAF50;
 	color: #FFFFFF;
-	border-radius: 1vw;
+	border-radius: 1.3vw;
 	transition: background-color 0.3s ease;
 }
   
@@ -1265,12 +1265,20 @@ p {
 	background-color: #58df5f;
   }
 
+  .resumeButtonContainer {
+	justify-content: center;
+	display: flex;
+  }
+
   #fullstackFlashText {
-	top: 60vh;
 	font-size: 2.3vw;
 	letter-spacing: .3vw;
   }
 
   .headerText {
 	height: 70vh;
+	justify-content: flex-start;
+	display: grid;
+	align-items: center;
   }
+
