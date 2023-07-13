@@ -360,7 +360,7 @@ table {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 3vh;
+  height: 4vh;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
@@ -792,9 +792,6 @@ ul.social-buttons li:last-child {
 	margin-right:0;
 }
 
-li.projectContainer {
-	list-style-type: none;
-}
 .social-btn {
 	width: 4vw;
 	height:1.8vw;
@@ -1208,10 +1205,7 @@ p {
 } */
 
 .projectContainer {
-	margin-bottom: 30vh;
-	justify-content: flex;
-	align-items: center;
-	margin-left: -3vw;
+	margin-bottom: 15vh;
 }
 
 #firstText {
@@ -1302,4 +1296,17 @@ p {
 	margin-top: 5vh;
   }
 
-  
+  .projectSectionContainer {
+	display: grid;
+	justify-content: center;
+
+  }
+
+
+  ul {
+	list-style: none;
+  }
+
+  .buttonSection {
+	margin-top: 10vh;
+  }
