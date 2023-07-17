@@ -465,13 +465,14 @@ table {
 	margin:50px 0 0;
 }
 h1.arrow {
-	font-size: 16px;
+	font-size: 1.3vw;
 	text-transform:uppercase;
 	color:#353535;
-	letter-spacing: 4px;
+	letter-spacing: .3vw;
 	background:url('../img/h1-bg.png') no-repeat center bottom;
-	padding-bottom:30px;
+	padding-bottom: 2vw;
 	font-weight: bold;
+	margin-top: 5vh;
 }
 h1.arrow span {
     color: black;
