@@ -681,7 +681,7 @@ i.respons {
 	height:100%;
 	opacity:0;
 }
-.overlay-effect .overlay a.expand {
+/* .overlay-effect .overlay a.expand {
 	left:0;
 	right:0;
 	bottom:47%;
@@ -690,7 +690,7 @@ i.respons {
 .overlay-effect .img.hover .overlay {
 	height:100%;
 	opacity:1;
-}
+} */
 
 .hype {
 	position:absolute;
