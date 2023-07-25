@@ -681,17 +681,6 @@ i.respons {
 	height:100%;
 	opacity:0;
 }
-/* .overlay-effect .overlay a.expand {
-	left:0;
-	right:0;
-	bottom:47%;
-	margin:0 auto -30px auto;
-}
-.overlay-effect .img.hover .overlay {
-	height:100%;
-	opacity:1;
-} */
-
 .hype {
 	position:absolute;
 	left:0;
@@ -700,10 +689,7 @@ i.respons {
 	margin-right:auto;
 	top: 50px;
 }
-/* ==========================================================================Subscribe========================================================================== */
-.subscribe {
-	padding-top:75px;
-}
+
 .subscribe h1 {
 	color: #FFFFFF;
 	margin-bottom:40px;
