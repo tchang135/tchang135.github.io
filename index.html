@@ -1,370 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/722dc1f3a2.js" crossorigin="anonymous"></script>
-	<!-- Website Title -->
-    <title>Timothy Chang Portfolio</title>
-    <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Lightbox -->
-	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Text Rotator-->
-	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-	<!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-	<!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet">
-	<!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet">
-	<!-- Custom Favicon -->
-	<link href="img/favicon for portfolio.png" rel="shortcut icon" type="image/x-icon" /> 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="assets/html5shiv/html5shiv.js"></script>
-    <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
-  </head>
-    <body id="top">
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
-
-
-	  	<!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-        <header id="home">
-		    
-           
-		  <!-- Header Image -->
-          <!-- <div class="portraitContainer">
-            <img src="./img/tim portfolio photo 2.jpeg" id="backgroundPortraitPhoto">
-          </div> -->
-          <div class="portraitContainer">
-            <section class="hero" id="hero">
-              <div class="container">
-            
-          <!-- HEADER HEADLINE -->
-                <div class="row">
-                  <div class="headerText">
-                    <h1 class="animated fadeInDown">
-                      <div id="nameHeader">
-                        <span style="color:#eaf0ea">Timothy</span><br/>
-                        <span><span style="color:#eaf0ea">Chang</span></span>
-                      </div>
-                    <h3 class="animated fadeInUp delay-03s"><span class="rotate" id="fullstackFlashText">Fullstack Developer</span></h3>
-                    <div class="resumeButtonContainer">
-                      <a href="https://drive.google.com/file/d/1h70IBP0vL5rvHAVTgbIMj3KFoVOzs1Er/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="">
-                        <button id="resumeButton">RESUME</button>
-                      </a>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </section>
-          </div>
-		  <!-- Header Image End -->
-        </header>
-		<!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-		
-		
-		
-		
-		<!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
-          <div class="container">
-		    <!-- WELCOME TEXT -->
-            <div class="row" id="aboutMeContainer">
-              <div id="aboutMeText">
-                <h1 class="arrow">About me</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p id="firstText">I am a fullstack developer based in Long Island, NY.</p>
-                <p id="middleText"> After graduating from Boston University, I was building experience with the goal to attend graduate school for Physical Therapy. During the pandemic, I realized that my true passion was coding and building intricate applications/projects. This led me to attend and graduate from App Academy (a 16-week intensive full-stack web development bootcamp).</p>
-                <p id="lastText"> Please take a look at the several projects I've developed using Javascript, React, Redux, Ruby, Rails, jQuery, MongoDB, Express, SQL, HTML, and CSS3.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-<!-- ==========================
-        EDUCATION SECTION 
-        =========================== -->
-        <section class="features text-center section-padding" id="service">
-          <div class="container">
-        
-            <div class="row justify-content-center">
-              <div class="col-md-12">
-                <h1 class="arrow">Education</h1>
-              </div>
-            </div>
-            <div class="row justify-content-center"
-              <div class="col-md-12">
-          <div class="services">
-         
-                  <div class="col-md-4 wp2 item">
-                    <div>
-                      <img class="buLogo" src="img/bu logo.png" alt="">
-                    </div>
-                    <h2>Boston University</h2>
-                    <p>B.S. in Health Sciences (2020)</p>
-                  </div>
-        
-                  <div class="col-md-4 wp2 item delay-05s">
-                    <div>
-                      <img class="aALogo" src="img/aA logo.jpg" alt="">
-                    </div>
-                    <h2>App Academy (SWE Bootcamp)</h2>
-                    <p>Completed Fullstack SWE Program (2023)</p>
-                    <p>1000+ hour software developer curriculum</p>
-                    <p>3% acceptance</p>
-                  </div>
-          </div>
-                  <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-		
-		
-
-    <!-- ==========================
-        PROJECT SECTION 
-        =========================== -->
-        <section class="text-center section-padding">
-          <div class="projectSectionContainer">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">My <span>Projects</span></h1>
-              </div>
-            </div><br><br>
-        
-            <div class="row">
-              <ul id="projectList">
-                <li class="projectContainer">
-                  <!-- Blog Entry 1 -->
-                  <div>
-                    <div class="img">
-                      <img src="img/Symphonify photo.jpg" id="projectPhoto">
-                    </div>
-                    <br>
-                    <h2>Symphonify</h2>
-                    <p>A clone of the popular audio streaming application, Spotify.</p>
-                    <div class="buttonSection">
-                      <button class="customButton"><a href="https://symphonify.herokuapp.com/"><span>Live</span></a></button>
-                      <button class="customButton"><a href="https://github.com/tchang135/Symphonify_FS_Project"><span>Github</span></a></button>
-                    </div>
-                  </div>
-                </li>
-                <li class="projectContainer">
-                  <!-- Blog Entry 2 -->
-                  <div id="projectSlide2">
-                    <div class="">
-                      <div class="img">
-                        <img src="img/Fit or Fade Photo.png" id="projectPhoto" alt="Blog Item">
-                      </div>
-                    </div>
-                    <br>
-                    <h2>Fit or Fad</h2>
-                    <p>A fashion-focused social media app that allows users to post their outfits, and link the specific article of clothing for other users to purchase.</p>
-                    <div class="buttonSection">
-                      <button class="customButton"><a href="https://fit-or-fad.onrender.com/"><span>Live</span></a></button>
-                      <button class="customButton"><a href="https://github.com/wilsonwu738/Fit-or-Fad"><span>Github</span></a></button>
-                    </div>
-                  </div>
-                </li>
-                <li class="projectContainer">
-                  <!-- Blog Entry 3 -->
-                  <div id="projectSlides3">
-                    <div class="img">
-                      <img src="img/Valpedia photo.png" id="projectPhoto" alt="Blog Item"><!-- Blog Image -->
-                    </div>
-                    <br>      
-        
-                    <h2>Valpedia</h2><!-- Headline -->
-                    <p>An encyclopedia website focused on the popular first-person shooter game, Valorant</p>
-                    <div class="buttonSection">
-                      <button class="customButton"><a href="https://tchang135.github.io/Valpedia/"><span>Live</span></a></button>
-                      <button class="customButton"><a href="https://github.com/tchang135/Valpedia"><span>Github</span></a></button>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <!-- ==========================
-            BLOG SECTION END
-            =========================== -->
-        
-		<!-- ==========================
-        CLIENTS SECTION END
-        =========================== -->
-	
-		
-		
-		<!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-        <section class="text-center section-padding contact-wrap" id="contact">
-		  <!-- To Top Button -->
-          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Contact <span>me</span></h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-			  <!-- Adress Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>LinkedIn</span></h2>
-                  <p id="contactMeText"><a href="https://www.linkedin.com/in/timothy-s-chang/">My Profile</a></p>
-                </div>
-              </div>
-			  <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p id="contactMeText">+1516-870-8228</p>
-                </div>
-              </div>
-			  <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p id="contactMeText">tchang135@gmail.com</p>
-                </div>
-              </div>
-            </div>
-			<div class="row">
-			  <!-- Google Maps (Change your Settings below) -->
-			 
-			  <!-- Contact Form -->
-			  <div class="form-wrapper">
-          <form role="form" id="contactMeForm">
-              <!-- Name -->
-              <div class="row">
-                  <div class="col-md-6">
-                      <!-- E-Mail -->
-                      <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Your name">
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <!-- Phone Number -->
-                      <div class="form-group">
-                          <input type="email" class="form-control" placeholder="Email address">
-                      </div>
-                  </div>
-              </div>
-              <!-- Message Area -->
-              <div class="form-group">
-                  <textarea class="form-control" placeholder="Write your message here..." style="height:232px;"></textarea>
-              </div>
-              <!-- Submit Button -->
-              <button type="submit" class="btn btn-send">Send message</button>
-          </form>
-      </div>
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="http://medium.com/@hassanhelfi/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-medium"></i>
+					</span>
+				</a>
+				<a href="http://github.com/helfi92" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/hassanhelfi" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>				
 			</div>
-			<br>
-			<!-- Social Buttons - use font-awesome, past in what you want -->
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="https://www.linkedin.com/in/timothy-s-chang/" class="social-btn"><i class="fa-brands fa-linkedin"></i></a></li><!-- dribble -->
-                  <li><a href="https://github.com/tchang135" class="social-btn"><i class="fa-brands fa-github"></i></a></li><!-- twitter -->
-                  <li><a href="https://drive.google.com/drive/u/0/folders/1G1qrVm2ZxGY0KJixvGFj15IfFowWenwJ" class="social-btn"><i class="fa-solid fa-file"></i></a></li><!-- facebook -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-		<!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/tim chang portfolio.jpeg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					Lorem Khaled Ipsum is a major key to success. To succeed you must believe. When you believe, you will succeed. Mogul talk. Find peace, life is like a water fall, you’ve gotta flow. Lion! Fan luv. Eliptical talk.
+				</p>
+			</div>
+		</section>
 		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/project-1.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										They don’t want us to eat. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/project-2.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/Hassan.Helfi"><img class="" src="assets/img/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
 		
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-	<script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-	<!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-	<!-- Text Rotator -->
-	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-	<!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
-	<!-- Theme JavaScript Core -->
-	<script src="js/main.js"></script>
-	<script src="js/script.js"></script>
-
-	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
-	
-	<!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 2000 // How many milliseconds until the next word show.
-    });
-    </script>
-	
-    </body>
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="http://www.hassanali.me/about">Hassan Ali</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
 </html>
