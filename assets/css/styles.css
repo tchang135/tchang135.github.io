@@ -64,6 +64,11 @@ a.nav-item:hover {
 	background-color: #8aa4ab;
 }
 
+.projectTitle {
+	font-size: 2.6vw;
+	text-align: center;
+}
+
 .project-figure {
 	margin: 0 auto 1rem auto;
 	max-height: 256px;
@@ -76,7 +81,8 @@ a.nav-item:hover {
 
 .box {
 	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
+	border: .2vw solid rgba(7, 59, 79, 0.5);
+	margin-bottom: 7vh;
 }
 
 .title {
