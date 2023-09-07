@@ -95,6 +95,7 @@ a.nav-item:hover {
 .educationLogos {
 	height:30vh ;
 	width:20vw ;
+	position: static;
 }
 
 #about {
@@ -102,15 +103,44 @@ a.nav-item:hover {
 }
 
 #education {
-	justify-content: space-around;
+	justify-content: space-between;
 	display: flex;
-	background-color: #F9E9DA;
+	background-color: #e3ded9;
 }
 
-@media screen and (max-width: 768px) {
-	.nav-menu {
-		background-color: #063647;
-	}
+.educationPannels {
+	display: flex;
+	margin-left: 5vw;
+	width: 45vw;
+}
+
+h2 {
+	font-size: 1.7vw;
+}
+
+.educationText {
+	color: #bba686;
+	margin-top: 2vh;
+}
+
+#firstText {
+	margin-top: 3vh;
+}
+
+#educationText {
+	margin-top: 2vh;
+}
+
+.nav-left {
+	margin-left: -9vw;
+}
+
+.nav-menu{
+	margin-right: -9vw;
+}
+
+@media screen and (max-width: 90vw) {
+	
 
 	.nav-toggle:hover {
 		background-color: transparent;
