@@ -16,6 +16,9 @@ section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+#linkedIn {
+	font-size: 1.4vw;
+}
 
 .section-1 {
 	background: #063647;
@@ -43,8 +46,8 @@ a.nav-item:hover {
 }
 
 .avatar{
-	height:40vh;
-	width: 30vw;
+	height:50vh;
+	width: 40vw;
 	border-radius: 50%;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
@@ -75,7 +78,7 @@ a.nav-item:hover {
 }
 
 .projectTitle {
-	font-size: 2.6vw;
+	font-size: 3.5vw;
 	text-align: center;
 	margin-bottom: 10vh;
 }
@@ -120,7 +123,7 @@ a.nav-item:hover {
 }
 
 .educationLogos {
-	height:32vh ;
+	height:34vh ;
 	width:20vw ;
 	position: static;
 }
@@ -134,7 +137,7 @@ a.nav-item:hover {
 }
 
 .educationHeader {
-	font-size: 2.3vw;
+	font-size: 3.5vw;
 	text-align: center;
 	color: #bba686;
 	margin-bottom: 8vh;
@@ -160,6 +163,12 @@ h2 {
 	margin-bottom: 3vh;
 }
 
+.heyText {
+	color: #e3ded9;
+	font-size: 2.5vw;
+	margin-bottom: 2vh;
+}
+
 .educationText {
 	color: #bba686;
 	margin-top: 2vh;
@@ -179,6 +188,28 @@ h2 {
 
 .nav-menu{
 	margin-right: -9vw;
+}
+
+#technologies {
+	background-color: #416270;
+}
+
+.technologiesHeader {
+	font-size: 3.5vw;
+	text-align: center;
+	color: #dfdfdf;
+	margin-bottom: 8vh;
+}
+
+#technologyRow {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10vh;
+}
+
+#technologyIcon {
+	width: 15vw;
+	height: 15vh;
 }
 
 @media screen and (max-width: 90vw) {
