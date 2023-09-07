@@ -11,6 +11,7 @@
 	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<meta name="author" content="Hassan Ali">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 	<body>
 		<!-- Navbar -->
@@ -50,7 +51,27 @@
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
 				<h3 class="heyText">Hey there, my name's Tim</h3>
-				<img class="avatar" src="assets/img/tim chang portfolio.jpeg">
+				<div id="movingWords">
+					<span class="auto-type"></span>
+					<img class="avatar" src="assets/img/tim chang portfolio.jpeg">
+					<span class="auto-type2"></span>
+				</div>
+				<script>
+					var typed = new Typed(".auto-type", {
+						strings: ["Innovater", "App Creator", "Web Designer", "Software Engineer", "Software Developer", "Purposeful", "Determined"],
+						typeSpeed: 150,
+						backSpeed: 150,
+						loop: true
+					})
+				</script>
+				<script>
+					var typed = new Typed(".auto-type2", {
+						strings: ["Innovater", "App Creator", "Web Designer", "Software Engineer", "Software Developer", "Purposeful", "Determined"],
+						typeSpeed: 150,
+						backSpeed: 150,
+						loop: true
+					})
+				</script>
 			</div>
 			<div class="container has-text-centered"></br>
 				<button>Resume</button>

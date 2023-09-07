@@ -51,6 +51,7 @@ a.nav-item:hover {
 	border-radius: 50%;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+	position: absolute;
 }
 
 .intro-description{
@@ -201,6 +202,17 @@ h2 {
 	margin-bottom: 8vh;
 }
 
+
+
+#movingWords {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 35vh;
+	margin-top: 30vh;
+	align-items: center;
+	/* position: fixed; */
+}
+
 #technologyRow {
 	display: flex;
 	justify-content: space-around;
@@ -211,6 +223,16 @@ h2 {
 	width: 15vw;
 	height: 15vh;
 }
+
+.auto-type {
+	/* position: fixed; */
+	left: 15%;
+}
+
+.auto-type2 {
+	/* position: fixed; */
+	left: 80%;
+} 
 
 @media screen and (max-width: 90vw) {
 	
