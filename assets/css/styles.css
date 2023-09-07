@@ -89,6 +89,21 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
+.educationLogos {
+	height:30vh ;
+	width:20vw ;
+}
+
+#about {
+	background-color: #E9C9AE;
+}
+
+#education {
+	justify-content: space-around;
+	display: flex;
+	background-color: #F9E9DA;
+}
+
 @media screen and (max-width: 768px) {
 	.nav-menu {
 		background-color: #063647;
