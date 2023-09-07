@@ -109,13 +109,16 @@ a.nav-item:hover {
 }
 
 .educationPannels {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 	display: flex;
-	margin-left: 5vw;
+	justify-content: space-around;
+	margin-left: 2vw;
 	width: 45vw;
 }
 
 h2 {
-	font-size: 1.7vw;
+	font-size: 1.9vw;
 }
 
 .educationText {
