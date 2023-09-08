@@ -163,7 +163,7 @@ a.nav-item:hover {
 }
 
 h2 {
-	font-size: 1.9vw;
+	font-size: 2.5vw;
 	margin-bottom: 3vh;
 }
 
@@ -295,8 +295,8 @@ h2 {
 	border: none;
 	cursor: pointer;
 	line-height: 1.5;
-	font: 700 1.2rem 'Roboto Slab', sans-serif;
-	padding: 1em 2em;
+	font: 600 1.05vw 'Roboto Slab', sans-serif;
+	padding: 2vh 3vw;
 	letter-spacing: 0.05rem;
   }
   
