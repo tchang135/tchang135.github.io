@@ -218,6 +218,7 @@ h2 {
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 10vh;
+	margin-right: 2vw;
 }
 
 #technologyIcon {
@@ -411,6 +412,7 @@ h2 {
     opacity: 0;
     transition: opacity 0.3s;
     text-align: center;
+	font-size: .8vw;
 }
 
 .iconContainer:hover {
