@@ -49,6 +49,10 @@ a.nav-item:hover {
 	color: #fff;
 }
 
+.nav-item {
+	width: fit-content;
+}
+
 .avatar{
 	height:50vh;
 	width: 40vw;
@@ -399,6 +403,22 @@ h2 {
 	outline: .4vw dotted #55d7dc;
 }
 
+#toprightItem {
+	font-size: 1.3vw;
+}
+
+#topleftIcon {
+	font-size: 2vw;
+}
+
+#linkedinIcon {
+	margin-left: 1vw;
+}
+
+#githubIcon {
+	margin-left: 1vw;
+	margin-top: .2vh;
+}
 
 .iconContainer {
     position: relative;
@@ -413,6 +433,7 @@ h2 {
     transition: opacity 0.3s;
     text-align: center;
 	font-size: .8vw;
+	margin-top: 2vh;
 }
 
 .iconContainer:hover {
