@@ -61,19 +61,29 @@
 						backSpeed: 80,
 						loop: true,
 						showCursor: false
-					})
+					}) 
 				</script>
 			</div>
 			<div class="container has-text-centered"></br>
-				<a href="https://drive.google.com/file/d/1h70IBP0vL5rvHAVTgbIMj3KFoVOzs1Er/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="">
-					<button class="pushable">
-						<span class="shadow"></span>
-						<span class="edge"></span>
-						<span class="front">
-							Resume
-						</span>
-					</button>
-				</a>
+				<button class="pushable" onclick="delayedRedirect()">
+					<span class="shadow"></span>
+					<span class="edge"></span>
+					<span class="front">
+					  Resume
+					</span>
+				  </button>
+				  
+				  <script>
+				  function delayedRedirect() {
+					// Prevent the default behavior of a click event on a button
+					event.preventDefault();
+				  
+					// Delay for 2 seconds (2000 milliseconds) before opening the URL
+					setTimeout(function() {
+					  window.open("https://drive.google.com/file/d/1h70IBP0vL5rvHAVTgbIMj3KFoVOzs1Er/view", '_blank');
+					}, 1000);
+				  }
+				  </script>
 			</div>
 			<div class="container"></br>
 				<p class="intro">
