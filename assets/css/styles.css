@@ -15,9 +15,11 @@ a:hover {
 }
 
 section{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
+
+
 #linkedIn {
 	font-size: 1.4vw;
 }
@@ -120,6 +122,7 @@ a.nav-item:hover {
 	width: 70%;
 	margin: 0 auto;
 	font-size: 1.4vw;
+	margin-bottom: 10vh;
 }
 
 .void-background {
@@ -129,15 +132,19 @@ a.nav-item:hover {
 .educationLogos {
 	height:34vh ;
 	width:20vw ;
-	position: static;
+	/* position: static; */
 }
 
 #about {
-	background-color: #bba686;
+	/* background-color: #bba686; */
+	background: linear-gradient(to bottom, #bba686,#bba686, #bba686,#bba686, #bba686,#bba686,#bba686, #e3ded9);
 }
 
 #education {
-	background-color: #e3ded9;
+	/* background-color: #e3ded9; */
+	/* margin-bottom: 20vh; */
+	height: 80vh;
+	background: linear-gradient(to bottom, #e3ded9,#e3ded9, #e3ded9,#e3ded9, #e3ded9,#e3ded9,#e3ded9, #8aa4ab);
 }
 
 .educationHeader {
@@ -151,11 +158,12 @@ a.nav-item:hover {
 	justify-content: space-between;
 	display: flex;
 	background-color: #e3ded9;
+	height: 40vh;
 }
 
 .educationPannels {
 	margin-top: 5vh;
-	margin-bottom: 5vh;
+	margin-bottom: 20vh;
 	display: flex;
 	justify-content: space-around;
 	margin-left: 2vw;
@@ -201,6 +209,7 @@ h2 {
 .technologiesHeader {
 	font-size: 3.5vw;
 	text-align: center;
+	margin-top: 5vh;
 	color: #dfdfdf;
 	margin-bottom: 8vh;
 }
