@@ -79,7 +79,7 @@ a.nav-item:hover {
 
 #projectPhoto {
 	width: 50vw;
-	height: 35vh;
+	height: 42vh;
 	align-items: left;
 }
 
@@ -101,8 +101,8 @@ a.nav-item:hover {
 
 #projectDescription {
 	align-items: right;
-	width: 40%;
-	margin-left: 5vw;
+	width: 45%;
+	margin-left: 2vw;
 }
 
 .project-text {
@@ -176,7 +176,6 @@ a.nav-item:hover {
 
 h2 {
 	font-size: 2.5vw;
-	margin-bottom: 3vh;
 }
 
 .heyText {
@@ -242,6 +241,17 @@ h2 {
     50% {
         border-color: transparent; /* Blinking color */
     }
+}
+
+.projectHeader {
+	display: grid;
+	margin-bottom: 5vh;
+}
+
+#projectTechnologies {
+	font-size: .8vw;
+	color: rgb(200, 197, 197);
+	font-style: italic;
 }
 
 
