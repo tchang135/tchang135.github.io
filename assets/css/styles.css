@@ -1,7 +1,7 @@
 @import "compass/css3";
 
 html, body{
-	font-size:16px;
+	font-size:1.2vw;
 	color: #dfdfdf;
 	background-color: #bba686;
 }
@@ -125,7 +125,7 @@ a.nav-item:hover {
 	text-align: justify;
 	width: 70%;
 	margin: 0 auto;
-	font-size: 1.4vw;
+	font-size: 1.3vw;
 	margin-bottom: 10vh;
 }
 
