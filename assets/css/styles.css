@@ -83,7 +83,7 @@ a.nav-item:hover {
 	align-items: left;
 }
 
-@media (min-width: 1525px) {
+@media (min-width: 1805px) {
 	#projectPhoto {
 		width: 55vw;
 		height: 44vh;
