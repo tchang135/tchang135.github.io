@@ -10,12 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat", sans-serif;
 }
 
-body, p, a, li {
-	font-family: "Open Sans", sans-serif;
-  }
+body, p{
+	font-family: "Roboto", sans-serif;
+}
 
 a {
   color: #dfdfdf;
+  font-family: "Montserrat", sans-serif;
 }
 
 a:hover {
@@ -253,15 +254,16 @@ h2 {
 
 .auto-type {
 	font-size: 3.0vw;
-	white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflow text */
-    border-right: 3px solid #dfdfdf; /* Initial border color */
+	font-family: "Montserrat", sans-serif;
+	white-space: nowrap; 
+    overflow: hidden; 
+    border-right: 3px solid #dfdfdf;
     animation: blink-caret 0.75s step-end infinite;
 }
 
 @keyframes blink-caret {
     50% {
-        border-color: transparent; /* Blinking color */
+        border-color: transparent; 
     }
 }
 
