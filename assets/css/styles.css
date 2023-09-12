@@ -80,7 +80,11 @@ a.nav-item:hover {
 #projectPhoto {
 	width: 50vw;
 	height: 45vh;
-	align-items: left;
+}
+
+#projectDescriptionTag {
+	font-size: 1.1vw;
+	margin-bottom: 2vh;
 }
 
 @media (min-width: 1805px) {
@@ -117,10 +121,6 @@ a.nav-item:hover {
 	align-items: right;
 	width: 45%;
 	margin-left: 2vw;
-}
-
-.project-text {
-	text-align: justify;
 }
 
 .box {
