@@ -95,8 +95,8 @@ a.nav-item:hover {
 
 .project-figure {
 	/* margin: 0 auto 1rem auto; */
-	max-height: 55vh;
-	max-width: 40vw;
+	max-height: 45vh;
+	max-width: 60vw;
 }
 
 #projectDescription {
@@ -418,7 +418,7 @@ h2 {
 }
 
 #topleftIcon {
-	font-size: 2vw;
+	font-size: 1.7vw;
 }
 
 #linkedinIcon {
