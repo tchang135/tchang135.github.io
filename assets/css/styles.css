@@ -432,10 +432,7 @@ h2 {
 	padding: 2vh 3vw;
 	letter-spacing: 0.05rem;
 }
-  
-.btn:focus {
-	outline: .4vw dotted #55d7dc;
-}
+
 
 #toprightItem {
 	font-size: 1.3vw;
