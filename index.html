@@ -75,7 +75,7 @@
 					event.preventDefault();
 		
 					setTimeout(function() {
-					  window.open("https://drive.google.com/file/d/1h70IBP0vL5rvHAVTgbIMj3KFoVOzs1Er/view", '_blank');
+					  window.open("https://drive.google.com/file/d/1lsKN0WDnrX56orfyvlUrvLGG2o5GP6Gv/view?usp=sharing", '_blank');
 					}, 1000);
 				  }
 				</script>
@@ -272,19 +272,19 @@
 		<section id="contact" class="section section-3">
 			<div class="container">
 				<div class="has-text-centered">					
-					<h3 class="title is-3" id="contactHeader">Contact Me</h3>
+					<h2 class="projectTitle" id="contactHeader">Contact Me</h2>
 				</div>
 			</div>
 
 			<div class="contactSections">
 
-				<div class="contactFormBorder">
+				<div class="contactFormBorder" id="bottomHoverAnimation">
 					<form action="https://formspree.io/f/maygjzna" method="POST" >
 						<label>
 							Your Name:
 							<input id="nameField" type="name" name="name">
 						</label>
-						<label>
+						<label id="emailFieldLabel">
 							Your Email:
 							<input id="emailField" type="email" name="email">
 						</label>
@@ -297,10 +297,11 @@
 						<button type="submit">Send</button>
 					</form>
 				</div>
-				<div class="contactInfoBorder">
+				<div class="contactInfoBorder" id="bottomHoverAnimation">
 					<h3>Email: tchang135@gmail.com </h3>
-					<h3>LinkedIn: <a href="https://www.linkedin.com/in/timothy-s-chang/" target="_blank">My LinkedIn</a></h3>
-					<h3>Resume: <a href="https://drive.google.com/file/d/1h70IBP0vL5rvHAVTgbIMj3KFoVOzs1Er/view">Click here</a></h3>
+					<a href="https://www.linkedin.com/in/timothy-s-chang/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i> My LinkedIn</a>
+					<a href="https://drive.google.com/file/d/1lsKN0WDnrX56orfyvlUrvLGG2o5GP6Gv/view?usp=sharing" target="_blank" class="social-btn"><i class="fa-solid fa-file"></i>My Resume</a></li>
+					<a href="https://github.com/tchang135" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i> My GitHub</a>
 				</div>
 
 			</div>
