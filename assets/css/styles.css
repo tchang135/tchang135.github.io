@@ -84,6 +84,7 @@ a.nav-item:hover {
 
 #projects {
 	background-color: #8aa4ab;
+	background: linear-gradient(to bottom, #8aa4ab,#8aa4ab, #8aa4ab,#8aa4ab, #8aa4ab,#8aa4ab,#8aa4ab, #416270);
 }
 
 #projectPhoto {
@@ -168,9 +169,7 @@ a.nav-item:hover {
 }
 
 #education {
-	/* background-color: #e3ded9; */
-	/* margin-bottom: 20vh; */
-	height: 80vh;
+	height: 90vh;
 	background: linear-gradient(to bottom, #e3ded9,#e3ded9, #e3ded9,#e3ded9, #e3ded9,#e3ded9,#e3ded9, #8aa4ab);
 }
 
@@ -212,6 +211,14 @@ h2 {
 	margin-top: 2vh;
 }
 
+#projectsContainer {
+	margin-bottom: 30vh;	
+}
+
+.introContainer {
+	margin-bottom: 10vh;
+}
+
 #firstText {
 	margin-top: 3vh;
 }
@@ -230,6 +237,11 @@ h2 {
 
 #technologies {
 	background-color: #416270;
+	background: linear-gradient(to bottom, #416270,#416270, #416270,#416270, #416270,#416270,#416270, #0E282E);
+}
+
+#technologiesContainer {
+	margin-bottom: 20vh;
 }
 
 .technologiesHeader {
