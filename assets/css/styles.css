@@ -488,12 +488,28 @@ h2 {
 }
 
 .contactBorder {
-	width: 60vw;
+	width: 70vw;
 	display: grid;
 	justify-content: space-around;
+	border-radius: .5vw;
+	border: 2vw #58afd1;
 }
 
+#nameField {
+	width: 15vw;
+	height: 4vh;
+}
 
+#emailField {
+	width: 15vw;
+	height: 4vh;
+}
+
+#messageField {
+	width: 35vw;
+	height: 15vh;
+	resize: none;
+}
 
 
 
