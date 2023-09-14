@@ -272,37 +272,39 @@
 		<section id="contact" class="section section-3">
 			<div class="container">
 				<div class="has-text-centered">					
-					<h3 class="title is-3">Contact Me</h3>
+					<h3 class="title is-3" id="contactHeader">Contact Me</h3>
 				</div>
 			</div>
 
-			<div class="contactBorder">
-				<form action="https://formspree.io/f/maygjzna" method="POST" >
-					<label>
-						Your Name:
-						<input id="nameField" type="name" name="name">
-					</label>
-					<label>
-						Your email:
-						<input id="emailField" type="email" name="email">
-					</label>
-					<br>
-					<label>
-						Your message:
-						<textarea id="messageField" name="message"></textarea>
-					</label>
-					<!-- your other form fields go here -->
-					<button type="submit">Send</button>
-				</form>
+			<div class="contactSections">
 
-				<div>
-
+				<div class="contactFormBorder">
+					<form action="https://formspree.io/f/maygjzna" method="POST" >
+						<label>
+							Your Name:
+							<input id="nameField" type="name" name="name">
+						</label>
+						<label>
+							Your Email:
+							<input id="emailField" type="email" name="email">
+						</label>
+						<br>
+						<label id="messageFieldLabel">
+							Your message:
+							<textarea id="messageField" name="message"></textarea>
+						</label>
+						<!-- your other form fields go here -->
+						<button type="submit">Send</button>
+					</form>
+				</div>
+				<div class="contactInfoBorder">
 					<h3>Email: </h3>
 					<h3>LinkedIn: </h3>
-
 				</div>
 
 			</div>
+
+			
 		</section>	
 		
 		<!-- Footer -->

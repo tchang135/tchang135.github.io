@@ -487,12 +487,28 @@ h2 {
 	justify-content: center;
 }
 
-.contactBorder {
-	width: 70vw;
-	display: grid;
+#contactHeader {
+	margin-bottom: 10vh;
+}
+
+.contactSections {
+	display: flex;
 	justify-content: space-around;
-	border-radius: .5vw;
-	border: 2vw #58afd1;
+	margin-bottom: 10vh;
+}
+
+.contactFormBorder {
+	width: 60vw;
+	display: grid;
+	justify-content: center;
+}
+
+.contactInfoBorder {
+	width: 20vw;
+	display: grid;
+	justify-content: left;
+	/* border-radius: .5vw;
+	border: 2vw #58afd1; */
 }
 
 #nameField {
@@ -506,10 +522,20 @@ h2 {
 }
 
 #messageField {
-	width: 35vw;
+	width: 43vw;
 	height: 15vh;
 	resize: none;
+	display: block;
 }
+
+
+#messageFieldLabel {
+	display: block;
+	margin-top: 5vh;
+	margin-bottom: 1vh; /* Adjust as needed */
+  }
+  
+
 
 
 
