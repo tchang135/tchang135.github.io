@@ -586,6 +586,15 @@ h2 {
 .socialBtn {
 	width: fit-content;
 }
+
+#submitEmailButton {
+	
+}
+
+#submitEmailButton:hover {
+	cursor: pointer;
+	filter: brightness(120%);
+}
   
 
 
