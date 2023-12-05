@@ -587,15 +587,36 @@ h2 {
 	width: fit-content;
 }
 
-#submitEmailButton {
-	
+#submitEmailButton:hover::before,
+#submitEmailButton:hover::after {
+	border-color: #ffe593;
+	transition: border-color 0s, width 0.25s, height 0.25s;
+	width: 100%;
+	height: 100%;
+}
+  
+#submitEmailButton:hover::before {
+	transition-delay: 0s, 0s, 0.25s;
+}
+  
+#submitEmailButton:hover::after {
+	transition-delay: 0s, 0.25s, 0s;
 }
 
+ #submitEmailButton {
+	width: 5vw;
+	height: 3vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 1vw;
+	box-shadow: inset 0 0 0 1vw white;
+
+}
+/*
 #submitEmailButton:hover {
 	cursor: pointer;
 	filter: brightness(120%);
 }
-  
+   */
 
 
 
