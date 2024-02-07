@@ -87,10 +87,9 @@ a.nav-item:hover {
 	background: linear-gradient(to bottom, #8aa4ab,#8aa4ab, #8aa4ab,#8aa4ab, #8aa4ab,#8aa4ab,#8aa4ab, #416270);
 }
 
-
 #projectPhoto {
 	width: 50vw;
-	height: 45vh;
+	height: 44vh;
 }
 
 #projectDescriptionTag {
