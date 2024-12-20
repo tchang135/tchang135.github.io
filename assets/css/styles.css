@@ -6,6 +6,7 @@ html, body{
 	background-color: #bba686;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat", sans-serif;
 }
@@ -597,15 +598,10 @@ h2 {
 
 #submitEmailButton:hover {
 	cursor: pointer;
-	filter: brightness(120%) ;
+	filter: brightness(125%) ;
 }
 
-/*
-#submitEmailButton:hover {
-	cursor: pointer;
-	filter: brightness(120%);
-}
-   */
+
 
 
 
