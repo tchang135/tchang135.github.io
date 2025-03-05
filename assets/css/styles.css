@@ -109,6 +109,46 @@ a.nav-item:hover {
 	}
 }
 
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+	.avatar {
+	  width: 80vw;
+	  height: auto;
+	  margin-top: 5vh;
+	  margin-bottom: 5vh;
+	}
+  
+	.intro {
+	  width: 90%;
+	  font-size: 3vw;
+	}
+  }
+  
+  /* Further adjustments for very small screens (phones) */
+  @media (max-width: 480px) {
+	.avatar {
+	  width: 90vw;
+	  height: auto;
+	}
+  
+	.intro {
+	  font-size: 4vw;
+	  width: 90%;
+	}
+  }
+  
+  @media (hover: none) {
+	.pushable:hover {
+	  filter: none;
+	}
+  
+	.iconContainer:hover {
+	  transform: none;
+	  filter: none; 
+	}
+  }
+  
+
 #projectArticle {
 	display: flex;
 }
